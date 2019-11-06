@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Sacramento&display=swap" rel="stylesheet">
+    <style>
+
+        .font-style{
+            font-family: 'Sacramento', cursive;
+            font-size: 35px;
+        }
+
+        .font-great{
+            font-family: 'Great Vibes', cursive;
+            font-size: 50px;
+            margin-right: 5px;
+        }
+       
+        .header-img{
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(green,rgba(0,0,0,.4));
+        }
+
+        .header-heading{
+            text-transform: uppercase;
+            color: white;
+            font-size: 35px;
+            letter-spacing: 1.1px;
+        }
+
+        .list-heading{
+            font-size: 22px;
+            color: white;
+            letter-spacing: 1.1px;
+            text-transform: uppercase;
+            transition: all 1s;
+        }
+
+        .list-heading:hover{
+            cursor: pointer;
+           
+        }
+
+        .list-secondary-heading{
+            font-size: 25px;
+            color: white;
+        }
+
+        .links{
+            text-decoration: none;
+        }
+
+        a{
+            color: inherit;
+            text-decoration: underline;
+    
+        }
+
+        a:hover{
+          
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        .input{
+            background: transparent;
+            outline: none;
+            border: 1px solid gray;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            color: white;
+            margin-bottom: 15px;
+            width: 70%;
+            box-shadow: none;
+            padding: 10px 15px;
+            
+        }
+
+        .input::placeholder{
+            color: black;
+            text-transform: uppercase;
+        }
+
+        .textarea{
+            background: transparent;
+            outline: none;
+            border-bottom: 1px solid gray;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            color: white;
+            margin-bottom: 15px;
+            width: 70%;
+            padding: 10px 15px;
+            
+        }
+        .textarea::placeholder{
+            color: black;
+            text-transform: uppercase;
+        }
+
+        .back{
+                font-size: 25px;
+                font-weight: 100;
+            }
+
+        .bttn{
+            color: white;
+        }
+
+        .icon{
+            transition: all .4s;
+        }
+        
+        .icon:hover{
+            transform: translateY(-5px);
+            cursor: pointer;
+        }
+
+        @media (max-width : 1000px){
+            .list-heading{
+                font-size: 15px;
+            }
+
+            .input{
+                width: 100%;
+            }
+
+            .textarea{
+                width: 100%;
+            }
+            
+            
+        }
+
+    </style>
+  </head>
+  <body>
+    
+
+   
+        <div class="container p-5 main-container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5 p-0">
+                    <img src="./images/harshit.jpeg" alt="harshit" class="header-img">
+                </div>
+                <div class="col-lg-8 col-md-7 bg-dark text-center">
+                    <div class="header-heading mt-3">
+                        <span class="font-great">H</span>arshit goel
+                    </div>
+                    <div class="row mt-4 px-5">
+                        <p class="text-warning text-justify large">I am an undergraduate at Delhi Technological University pursuing
+                        Bachelors in Computer Science currently in 2nd Year.
+                        I am a full stack web developer and a competitive programmer
+                        </p>
+                    </div>
+                    <div class="row mt-4 px-5">
+                        <p class="text-white font-style"><span class="font-great">I</span> socialize on</p>
+                    </div>
+                    <div class="row px-5 mt-0">
+                       <a href="https://www.facebook.com/harshit.goel.5439"><i class="icon fa fa-facebook fa-2x text-primary ml-3 ml-md-4 mb-5"></i></a>
+                       <a href="https://twitter.com/hgoel51"><i class="icon fa fa-twitter fa-2x text-info ml-3 ml-md-4"></i></a>
+                       <a href="https://www.instagram.com/iamharshit_1/"><i class="icon fa fa-instagram fa-2x text-danger ml-3 ml-md-4"></i></a>
+                       <a href="https://www.linkedin.com/in/harshit-goel-6a7057193/"><i class="icon fa fa-linkedin fa-2x text-info ml-3 ml-md-4"></i></a>
+                       <a href="https://github.com/harshit1111"><i class="icon fa fa-github fa-2x text-white ml-3 ml-md-4"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-secondary">
+                <div class="col-3 py-md-5  py-4 text-center bg-dark list-heading">
+                    <div class="text-center">
+                        <i class="fa fa-paint-brush"></i>
+                    </div>
+                    Skills
+                </div>
+                <div class="col-3 py-md-5  py-4 text-center bg-primary list-heading">
+                    <div class="text-center">
+                        <i class="fa fa-tasks"></i>
+                    </div>
+                    Work
+                </div>
+                <a href="https://drive.google.com/file/d/1N3-8TUh9rg2a0dgCSYAIqaqfwtKUduFQ/view?usp=sharing"
+                target="_black" style="text-decoration:none">
+                <div class="col-3 py-md-5  py-4 text-center bg-warning list-heading">
+                        <div class="text-center">
+                            <i class="fa fa-file"></i>
+                        </div>
+                       Resume</a>
+                </div>
+                <div class="col-3 py-md-5 px-2 py-4 text-center bg-danger list-heading">
+                        <div class="text-center">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        Contact 
+                </div>
+            </div>
+
+            <div class="collapse1 show" id="skills">
+                <div class="row bg-dark">
+                    <div class="col-12 list-secondary-heading py-4 text-center">
+                        Skills
+                    </div>
+                    <div class="col-md-8 col-12">
+                            <div>
+                                <div class="text-light mb-2"> C++ </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" style="width:95%">95%</div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-md-8 col-12 mt-4">
+                        <div>
+                            <div class="text-light mb-2"> HTML / CSS </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" style="width:90%">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-12 mt-4">
+                            <div>
+                                <div class="text-light mb-2"> JavaScript </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning " style="width:80%">80%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 mt-4">
+                                <div>
+                                    <div class="text-light mb-2"> ReactJs </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" style="width:85%">85%</div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-md-8 col-12 mt-4">
+                                <div>
+                                    <div class="text-light mb-2"> NodeJs </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" style="width:75%">75%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-12 mt-4 mb-4">
+                                    <div>
+                                        <div class="text-light mb-2"> MongoDb/MySql </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger " style="width:80%">80%</div>
+                                        </div>
+                                    </div>
+                            </div>
+                </div>
+            </div>
+
+            <div class="collapse1" id="work">
+                <div class="row pb-4 bg-primary">
+                    <div class="col-12  pt-3 text-light">
+                        <div class="h3 text-left mb-2">Frontend Developer Intern</div>
+                        <div class="text-justify text-mute">
+                            Worked as a Frontend developer at <a href="http://codepark.in" target="_blank">Codepark</a> and further enhanced the UI of the website(REACT JS)
+                        </div>
+                    </div>
+                    <div class="col-12  pt-3 text-light mt-4">
+                            <div class="h3 mb-2"><a href="https://crixfreaks.com" class="links" target="_blank">CRIXFREAKS.COM</a></div>
+                            <div class="text-justify text-mute">
+                                Developed a website for cricket lovers.
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="collapse1" id="contact">
+                    <div class="row pb-4 bg-danger pt-4">
+                            <div class="text-white col-12 back">
+                                I will try to get back as soon as possible.
+                            </div>
+                            <div class="col-12 mt-5">
+                                 <input type="text" class="input" placeholder="your name">
+                             </div>
+                             <div class="col-12">
+                                     <input type="email" class="input"  placeholder="your email">
+                             </div>
+                             <div class="col-12">
+                                     <textarea rows="5" class="textarea" placeholder="Your Comments" type="text" ></textarea>
+                             </div>
+                             <div class="col-12">
+                                 <button class="btn btn-outline-secondary bttn">Submit</button>
+                             </div>
+                         </div> 
+                     </div>
+            </div>
+               
+             
+
+            
+        </div>
+   
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+
+        document.getElementById('work').style.display = "none";
+        document.getElementById('contact').style.display = "none";
+
+        let x = document.getElementsByClassName('collapse1')
+        
+
+        let y = document.getElementsByClassName('list-heading');
+        console.log(y)
+        for(let i = 0; i<y.length;i++){
+            y[i].addEventListener('click',(event) => {
+                for(let k = 0; k<x.length;k++){
+                    x[k].style.display = "none" 
+
+                }
+
+                let z = event.target.closest('.list-heading').textContent.trim();
+                
+                if(z === 'Skills'){
+                    
+                    document.getElementById('skills').style.display = "block";
+                }
+
+                if(z === 'Work'){
+                    document.getElementById('work').style.display = "block";
+                }
+
+                if(z==='Resume'){
+                    document.getElementById('skills').style.display = "block";
+                } 
+
+                if(z === 'Contact'){
+                    document.getElementById('contact').style.display = "block"
+                }
+            })
+        }
+        
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
